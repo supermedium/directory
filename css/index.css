@@ -13,6 +13,15 @@ h3 {
   font-family: 'Sanchez';
 }
 
+.header a {
+  color: #FD78B7;
+  transition: all .1s;
+}
+
+.header a:hover {
+  color: #FF98A7;
+}
+
 h1 {
   font-size: 36px;
   margin-bottom: 25px;
