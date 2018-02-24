@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>WebVR Directory</title>
+    <link rel="stylesheet" href="css/index.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Sanchez|Source+Sans+Pro:400,600" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <h1>WebVR Directory</h1>
+
+      <p><b><a href="https://wwww.supermedium.com">Download Supermedium</a></b> to quickly try all of these VR sites!</p>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QZVSVW5_taw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+      <p>Seamlessly navigate without leaving the headset.</p>
+      <p>Supermedium enhances many VR sites, for example, adding audio and controller support.</p>
+      <p>All of the sites below were tested in VR with ensured quality experience.</p>
+    </div>
+
+    <ul class="sites">
+      {%- for site in featured -%}
+        {%- if not site.devlink -%}
+          <li class="site">
+            <img class="siteImage" src="https://super.xyz/superassets/{{ site.image }}">
+            <img class="siteLogo" src="https://super.xyz/superassets/{{ site.logo }}">
+            <div class="siteInfo">
+              <h3 class="siteTitle">{{ site.title }}</h3>
+              <p class="siteAuthor">by {{ site.author }}</p>
+              <p class="siteDescription">{{ site.description }}</p>
+            </div>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </body>
+</html>
