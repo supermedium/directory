@@ -8,6 +8,14 @@
     "description": "This link points to your custom test URL!"
   },
   {
+    "url": "https://super.xyz/puzzle-rain/app/?mode=normal",
+    "title": "Puzzle Rain",
+    "author": "Mozilla",
+    "image": "site/puzzlerain.jpg",
+    "logo": "site/puzzlerain.png",
+    "description": "A musical WebVR journey."
+  },
+  {
     "url": "https://sketchfab.com/models/311d052a9f034ba8bce55a1a8296b6f9",
     "title": "Van Gogh Room",
     "author": "Ruslan Sokolovsky",
@@ -23,15 +31,6 @@
     "image": "site/apollo11.jpg",
     "logo": "site/apollo11.png",
     "description": "Neil Armstrong & Buzz Aldrin landed on the moon July 20, 1969. Step onto the lunar surface alongside Armstrong.",
-    "audio": ["", 0]
-  },
-  {
-    "url": "https://sketchfab.com/models/d7fbea6211aa4116ae8a3a882af55c6c",
-    "title": "Destroyed Subway",
-    "author": "AurÃ©lien Marlle",
-    "image": "site/destroyedsubway.jpg",
-    "logo": "site/destroyedsubway.png",
-    "description": "A subway that won't be in service any time soon. Inspired by post-apocalyptic horror game Metro 2033.",
     "audio": ["", 0]
   },
   {
@@ -134,6 +133,15 @@
 
 
 
+  {
+    "url": "https://sketchfab.com/models/d7fbea6211aa4116ae8a3a882af55c6c",
+    "title": "Destroyed Subway",
+    "author": "AurÃ©lien Marlle",
+    "image": "site/destroyedsubway.jpg",
+    "logo": "site/destroyedsubway.png",
+    "description": "A subway that won't be in service any time soon. Inspired by post-apocalyptic horror game Metro 2033.",
+    "audio": ["", 0]
+  },
   {
     "url": "https://sketchfab.com/models/63dd568f5bc64e8694d5f4252924c99e",
     "title": "Sherwood Forest",
@@ -397,23 +405,6 @@
     "description": "Ride the audio reactive waves. First installment of featuring generative VR worlds."
   },
   {
-    "url": "https://www.shadertoy.com/view/4dSGW1",
-    "title": "Grid of Cylinders",
-    "author": "Inigo Quilez (iq)",
-    "image": "site/gridofcylinders.jpg",
-    "logo": "site/gridofcylinders.png",
-    "description": "An infinite grid of cylinders, like the swelling waves of the ocean. An expanse of mountains, rising and falling, forever.",
-    "audio": ["https://super.xyz/superassets/audio/iansutherland-giant.mp3", 0.50]
-  },
-  {
-    "url": "https://www.shadertoy.com/view/Msl3Rr",
-    "title": "Cubescape",
-    "author": "Inigo Quilez (iq)",
-    "image": "site/cubescape.jpg",
-    "logo": "site/cubescape.png",
-    "description": "Marvel at the fine detail of the wood-grained waveforms. Rounded pulsating cubes that bounce to the beat. Created on ShaderToy."
-  },
-  {
     "url": "https://speaktogo.withgoogle.com/",
     "title": "Speak to Go",
     "author": "Google Creative Lab",
@@ -476,15 +467,6 @@
     "injectScript": "injectScripts/nighteyes.js",
     "waitForWebVRReady": true,
     "description": "Using abstract lines to recreate the shape of the animals in the forest. Click the thumb at the winds to move."
-  },
-  {
-    "url": "https://www.shadertoy.com/view/XsjXR1",
-    "title": "Worms",
-    "author": "Inigo Quilez (iq)",
-    "image": "site/worms.jpg",
-    "logo": "site/worms.png",
-    "audio": ["https://ucarecdn.com/a74adaa6-c896-4419-a7f0-cd217a651059/", 0.1],
-    "description": "A surreal experience in a forest of strand things."
   },
   {
     "url": "http://apps.amandaghassaei.com/OrigamiSimulator/",
