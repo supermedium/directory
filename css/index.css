@@ -1,10 +1,13 @@
 html,
 body {
-  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/pow-star.png);
   font-family: 'Source Sans Pro';
   margin: 0;
   max-width: 100%;
   width: 100%;
+}
+
+html {
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/pow-star.png);
 }
 
 h1,
