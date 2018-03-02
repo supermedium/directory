@@ -8,7 +8,7 @@
     "description": "This link points to your custom test URL!"
   },
   {
-    "url": "https://super.xyz/puzzle-rain/app/?mode=normal",
+    "url": "https://supermedium.com/puzzle-rain/app/?mode=normal",
     "title": "Puzzle Rain",
     "author": "Mozilla",
     "image": "site/puzzlerain.jpg",
@@ -22,7 +22,7 @@
     "image": "site/vangoghroom.jpg",
     "logo": "site/vangoghroom.png",
     "description": "The room of the artist. Recreation of Vincent Van Gogh's 'The Bedroom' painting.",
-    "audio": ["https://super.xyz/superassets/audio/kaiengel-remedyformelancholy.mp3", 0.75]
+    "audio": ["https://supermedium.com/superassets/audio/kaiengel-remedyformelancholy.mp3", 0.75]
   },
   {
     "url": "https://sketchfab.com/models/2324f9685404433fa6231c7cb2cd2ff5",
@@ -40,7 +40,7 @@
     "image": "site/sherlock.jpg",
     "logo": "site/sherlock.png",
     "description": "Visit 221B Baker Street, home of the world's most renowned detective.",
-    "audio": ["https://super.xyz/superassets/audio/sherlock.mp3", 0.75]
+    "audio": ["https://supermedium.com/superassets/audio/sherlock.mp3", 0.75]
 	},
   {
     "url": "https://sketchfab.com/models/90034cbe58904828a11429395cef9125",
@@ -79,7 +79,7 @@
     "image": "site/sika.jpg",
     "logo": "site/sika.png",
     "description": "Deer under a cherry blossom on an island in the moonlit lake.",
-    "audio": ["https://super.xyz/superassets/audio/chanwaitfat-dream.mp3", 0.75]
+    "audio": ["https://supermedium.com/superassets/audio/chanwaitfat-dream.mp3", 0.75]
 	},
   {
     "url": "https://sketchfab.com/vr-launcher?model=c0022acc4f3242e2bcae8043e08df8cc&vr_link_navigation=1#home?cursor=firstPage",
@@ -149,10 +149,10 @@
     "image": "site/robinhoodinsherwoodforest.jpg",
     "logo": "site/robinhoodinsherwoodforest.png",
     "description": "Welcome to Sherwood Forest!",
-    "audio": ["https://super.xyz/superassets/audio/unthunk-flummox.mp3", 1]
+    "audio": ["https://supermedium.com/superassets/audio/unthunk-flummox.mp3", 1]
   },
   {
-    "url": "https://super.xyz/three.js/examples/webvr_vive_paint.html",
+    "url": "https://supermedium.com/three.js/examples/webvr_vive_paint.html",
     "title": "Paint",
     "author": "Mr.doob",
     "image": "site/paint.jpg",
@@ -241,19 +241,6 @@
     "description": "Stand under a umbrella and hear the sounds of raining dog toys, ping pong balls, and more. Listen to objects crashing all around."
   },
   {
-    "url": "https://player.with.in/embed/?id=541&resolution=1920&forced=false&autoplay=true&t=0&internal=true",
-    "title": "Under Neon Lights",
-    "author": "Within",
-    "image": "site/underneonlights.jpg",
-    "logo": "site/underneonlights.png",
-    "entervr": [
-      ["click", ".right.stereo", 200]
-    ],
-    "injectScript": "injectScripts/underneonlights.js",
-    "waitForWebVRReady": true,
-    "description": "Enter a world of imagination and color in this interactive music experience for The Chemical Brothers Under Neon Lights."
-  },
-  {
     "url": "https://aframe.io/a-painter/",
     "title": "A-Painter",
     "author": "A-Frame Authors",
@@ -287,7 +274,7 @@
     "author": "Marpi",
     "image": "site/spider.jpg",
     "logo": "site/spider.png",
-    "audio": ["https://super.xyz/superassets/audio/bluedotsessions-bauxite.mp3", 0.20],
+    "audio": ["https://supermedium.com/superassets/audio/bluedotsessions-bauxite.mp3", 0.20],
     "entervr": [
       ["click", "img:last-child", 100]
     ],
@@ -322,7 +309,7 @@
     "cardboard": true,
     "image": "site/aurora.jpg",
     "logo": "site/aurora.png",
-    "audio": ["https://super.xyz/superassets/audio/kaiengle-sunset.mp3", 0.40],
+    "audio": ["https://supermedium.com/superassets/audio/kaiengle-sunset.mp3", 0.40],
     "description": "Catch the northern lights (aurora borealis) live in Yellowknife, Canada."
   },
   {
@@ -414,7 +401,7 @@
       ["click", "#entervr-button", 100]
     ],
     "cardboard": true,
-    "audio": ["https://super.xyz/superassets/audio/gillicuddy-springish.mp3", 0.5],
+    "audio": ["https://supermedium.com/superassets/audio/gillicuddy-springish.mp3", 0.5],
     "description": "Discover somewhere new in the world. 360-degree imagery from around the globe. Press the trigger instead of the spacebar."
   },
   {
@@ -438,7 +425,7 @@
     "entervr": [
       ["mousedown", "#vr-toggle-container", 100]
     ],
-    "audio": ["https://super.xyz/superassets/audio/ryancullinane-runningwithdrums.mp3", 0.5],
+    "audio": ["https://supermedium.com/superassets/audio/ryancullinane-runningwithdrums.mp3", 0.5],
     "description": "Escape through space on stolen plasma engines while slinging photon bolts at deadly asteroids. How many can you blow apart?"
   },
   {
