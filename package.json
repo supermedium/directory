@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "private": "true",
   "scripts": {
-    "build": "node scripts/build.js",
+    "build": "webpack src/index.js -o js/app.js",
     "deploy": "npm run predeploy && ghpages -p .ghpages && shx rm -rf .ghpages",
-    "deploykevin": "cp ~/Code/supermedium/lobby/src/featured.json . && npm run predeploy && ghpages -p .ghpages && shx rm -rf .ghpages && git add . && git commit -m 'Updates' && git push origin master",
-    "predeploy": "npm run build && shx mkdir -p .ghpages && shx cp -r index.html CNAME css img .ghpages",
-    "start": "npm run watch",
-    "watch": "node scripts/watch.js"
+    "deploykevin": "cp ~/Code/superserver/indexer/files/featured.json src && npm run deploy && git add . && git commit -m 'Updates' && git push origin master",
+    "predeploy": "npm run build && shx mkdir -p .ghpages && shx cp -r index.html CNAME css img .ghpages"
   },
   "dependencies": {
+    "ejs": "^2.5.7",
     "ghpages": "0.0.10",
-    "nunjucks": "^3.1.2",
-    "shx": "^0.2.2"
+    "shx": "^0.2.2",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10"
   }
 }
