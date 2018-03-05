@@ -102,6 +102,14 @@ h1 {
   padding: 0 20px 5px 20px;
 }
 
+.siteTitle,
+.siteAuthor {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .siteTitle {
   color: #FD78B7;
   margin-bottom: 0;
