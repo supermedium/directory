@@ -6,7 +6,7 @@
     "build": "webpack src/index.js -o js/app.js",
     "deploy": "npm run predeploy && ghpages -p .ghpages && shx rm -rf .ghpages",
     "deploykevin": "cp ~/Code/superserver/indexer/files/featured.json src && npm run deploy && git add . && git commit -m 'Updates' && git push origin master",
-    "predeploy": "npm run build && shx mkdir -p .ghpages && shx cp -r index.html CNAME css img .ghpages"
+    "predeploy": "npm run build && shx mkdir -p .ghpages && shx cp -r index.html CNAME css js img .ghpages"
   },
   "dependencies": {
     "ejs": "^2.5.7",
