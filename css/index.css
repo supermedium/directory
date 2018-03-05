@@ -116,3 +116,16 @@ h1 {
 .siteDescription {
   word-break: break-all;
 }
+
+.algoliaLogo {
+  bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -30px;
+  padding-right: 10.2%;
+  position: relative;
+}
+
+.algoliaLogo img {
+  height: 18px;
+}

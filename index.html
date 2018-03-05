@@ -32,6 +32,10 @@
 
     <input id="search" type="search" placeholder="Search the VR Web..." v-on:keyup="search"></input>
 
+    <div class="algoliaLogo">
+      <img src="img/search-by-algolia.png">
+    </div>
+
     <ul class="sites">
       <li class="site" v-for="site in sites">
         <a class="siteImage" v-bind:href="site.url">
