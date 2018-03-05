@@ -112,3 +112,7 @@ h1 {
   margin-bottom: 0;
   margin-top: 3px;
 }
+
+.siteDescription {
+  word-break: break-all;
+}

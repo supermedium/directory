@@ -1,6 +1,6 @@
 var featured = require('./featured.json');
 
-var client = algoliasearch('QULTOY3ZWU', 'b15ba0aed681d0358d9cf5d6bfb132ae');
+var client = algoliasearch('QULTOY3ZWU', '4ac532d3ddfcadcecd3954894051527e');
 var index = client.initIndex('sites');
 
 var app = new Vue({
