@@ -133,6 +133,19 @@
 
 
   {
+    "url": "https://player.with.in/embed/?id=541&resolution=1920&forced=false&autoplay=true&t=0&internal=true",
+    "title": "Under Neon Lights",
+    "author": "Within",
+    "image": "site/underneonlights.jpg",
+    "logo": "site/underneonlights.png",
+    "entervr": [
+      ["click", ".right.stereo", 200]
+    ],
+    "injectScript": "injectScripts/underneonlights.js",
+    "waitForWebVRReady": true,
+    "description": "Enter a world of imagination and color in this interactive music experience for The Chemical Brothers Under Neon Lights."
+  },
+  {
     "url": "https://tabel.withgoogle.com/film",
     "title": "Tabel",
     "author": "Art Copy & Code + Google",

@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node scripts/build.js",
     "deploy": "npm run predeploy && ghpages -p .ghpages && shx rm -rf .ghpages",
-    "predeploy": "shx mkdir -p .ghpages && shx cp -r index.html CNAME css img .ghpages",
+    "deploykevin": "cp ~/Code/supermedium/lobby/src/featured.json . && npm run predeploy && ghpages -p .ghpages && shx rm -rf .ghpages && git add . && git commit -m 'Updates' && git push origin master",
+    "predeploy": "npm run build && shx mkdir -p .ghpages && shx cp -r index.html CNAME css img .ghpages",
     "start": "npm run watch",
     "watch": "node scripts/watch.js"
   },
