@@ -43,8 +43,8 @@
           <img class="siteLogo" v-bind:src="site.logo">
         </a>
         <div class="siteInfo">
-          <h3 class="siteTitle">{{ site.title }}</h3>
-          <p class="siteAuthor">by {{ site.author }}</p>
+          <h3 class="siteTitle" v-bind:title="site.title">{{ site.title }}</h3>
+          <p class="siteAuthor" v-bind:title="site.author">by {{ site.author }}</p>
           <p class="siteDescription">{{ site.description }}</p>
         </div>
       </li>
