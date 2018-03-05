@@ -121,10 +121,6 @@ h1 {
   margin-top: 3px;
 }
 
-.siteDescription {
-  word-break: break-all;
-}
-
 .algoliaLogo {
   bottom: 30px;
   display: flex;
