@@ -1,4 +1,4 @@
-var featured = require('./sites.json');
+var featured = require('./sites.json').reverse();
 
 var client = algoliasearch('QULTOY3ZWU', '4ac532d3ddfcadcecd3954894051527e');
 var index = client.initIndex('sites');
