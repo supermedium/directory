@@ -20,21 +20,9 @@
     <div id="app">
       <div class="header">
         <h1>WebVR Directory</h1>
-
-        <p>All VR sites have been tested and ensured to work well in VR.</p>
-
-        <iframe width="420" height="236" src="https://www.youtube.com/embed/QZVSVW5_taw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-        <p style="margin-bottom: 0"><b><a href="https://www.supermedium.com">Download Supermedium</a></b> (available on <a href="https://store.steampowered.com/app/803010/Supermedium/">Steam</a> and <a href="https://www.oculus.com/experiences/rift/1629560483789871/">Oculus</a>) to seamlessly experience these VR sites without taking off the headset.</p>
-
-        <p style="margin-top: 8px">Supermedium also adds audio, controllers, and other fixes on top of many sites.</p>
       </div>
 
       <input id="search" type="search" placeholder="Search the VR Web..." v-on:keyup="search"></input>
-
-      <div class="algoliaLogo">
-        <img src="img/search-by-algolia.png">
-      </div>
 
       <ul class="sites">
         <li class="site" v-for="site in sites">
@@ -49,8 +37,6 @@
           </div>
         </li>
       </ul>
-
-      <i style="display: block; margin: 50px 0; text-align: center">Want to suggest a site for us to give a spin? Email us at <b>team@supermedium.com</b>!</i>
     </div>
 
     <script src="js/app.js"></script>
@@ -61,6 +47,7 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-111391431-6');
 		</script>
-		<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"b0a30b8dfdca68863a7e4bdb9","lid":"6495d4ef01"}) })</script>
+
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b0a30b8dfdca68863a7e4bdb9/89057ff21345cc3b2289f3076.js");</script>
   </body>
 </html>
